@@ -44,8 +44,8 @@
     cy.get(this.webLocatior.password).type(password)
    }
 
-   enterCpassword(){
-    cy.get(this.webLocatior.cPassword);
+   enterCpassword(cpassword){
+    cy.get(this.webLocatior.cPassword).type(cpassword)
    }
 
    selectPolicy(){
