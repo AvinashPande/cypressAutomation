@@ -1,0 +1,17 @@
+   export class HomePage{
+
+    webLocator = {
+
+        
+
+
+
+    }
+
+  
+   
+
+
+
+
+    }
