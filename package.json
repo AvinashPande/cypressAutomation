@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "test:addtocart": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js",
     "test:singlespec": "npx cypress run  --spec cypress/e2e/tests/registorTest.cy.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.12.0"
+    "cypress": "^13.12.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
   }
 }

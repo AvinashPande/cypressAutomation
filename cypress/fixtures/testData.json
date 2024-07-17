@@ -1,0 +1,16 @@
+{
+  "login": 
+  {
+    "username": "pandeyavinash3792@gmail.com",
+    "password": "Admin@1010"
+  },
+  "product": 
+  {
+    "productName": "MacBook"
+  },
+  "message":
+  {
+    "successMessage": "Success: You have added MacBook to your shopping cart!"
+  }
+  
+}
