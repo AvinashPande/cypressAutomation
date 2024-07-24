@@ -1,10 +1,10 @@
 
 describe('Read file', () => { 
  
-    it('', () => {
+    it('Read from pdf file', () => {
 
 
-        cy.readFile('demo.txt') .then((data) => {
+        cy.readFile('cypress/fixtures/demo.txt') .then((data) => {
 
             cy.log(" Demo file data is => ",data);
         })
