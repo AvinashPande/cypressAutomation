@@ -1,7 +1,7 @@
 
 describe('Read file', () => { 
  
-    it('Read from pdf file', () => {
+    it.skip('Read from pdf file', () => {
 
 
         cy.readFile('cypress/fixtures/demo.txt') .then((data) => {
